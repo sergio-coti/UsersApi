@@ -18,7 +18,7 @@ namespace UsersApi.Services.Extensions
             {
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "UsersApi - COTI Informática",
+                    Title = "UsersApi - COTI Informática (Treinamento)",
                     Description = "API REST para controle de usuários - Treinamento C# Avançado Formação Arquiteto",
                     Version = "1.0",
                     Contact = new OpenApiContact
