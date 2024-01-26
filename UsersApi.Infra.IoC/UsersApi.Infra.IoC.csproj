@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UsersApi.Application\UsersApi.Application.csproj" />
+    <ProjectReference Include="..\UsersApi.Domain\UsersApi.Domain.csproj" />
+    <ProjectReference Include="..\UsersApi.Infra.Data\UsersApi.Infra.Data.csproj" />
+    <ProjectReference Include="..\UsersApi.Infra.Security\UsersApi.Infra.Security.csproj" />
+  </ItemGroup>
+
+</Project>
